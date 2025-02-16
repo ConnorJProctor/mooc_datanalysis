@@ -1,6 +1,8 @@
 #
 # country = input("What country are you from?")
 # print(f"{country} is a beautiful country.")
+import math
+
 
 # number = 4
 # for i in range(11):
@@ -88,3 +90,13 @@
 #         print(calculate_rectangle_area(width=w, height=h))
 #     else:
 #         print("Unknown shape!")
+
+
+# Exercise 1.8
+def solve_quadratic(a, b, c):
+    solution_one = (-b + math.sqrt((b**2) - 4*a*c))/(2 * a)
+    solution_two = (-b - math.sqrt((b**2) - 4*a*c))/(2 * a)
+
+    return (solution_one, solution_two)
+
+print(solve_quadratic(1, 2,1))
