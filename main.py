@@ -92,11 +92,59 @@ import math
 #         print("Unknown shape!")
 
 
-# Exercise 1.8
-def solve_quadratic(a, b, c):
-    solution_one = (-b + math.sqrt((b**2) - 4*a*c))/(2 * a)
-    solution_two = (-b - math.sqrt((b**2) - 4*a*c))/(2 * a)
+# # Exercise 1.8
+# def solve_quadratic(a, b, c):
+#     solution_one = (-b + math.sqrt((b**2) - 4*a*c))/(2 * a)
+#     solution_two = (-b - math.sqrt((b**2) - 4*a*c))/(2 * a)
+#
+#     return (solution_one, solution_two)
+#
+# print(solve_quadratic(1, 2,1))
 
-    return (solution_one, solution_two)
+# L=[11,13,22,32]
+# print(L)
+# L[2]=10
+# print(L)
+# L[1:3]=[4]
+# print(len(L))
 
-print(solve_quadratic(1, 2,1))
+
+# Exercise 1.9
+#
+# def merge(list_one,list_two):
+#     new_list = list_one + list_two
+#     return new_list
+#
+#
+# l1 = [1,3,5,7,9]
+# l2 = [2,4,6,8,10]
+# l3 = sorted(merge(l1,l2))
+# print(l3)
+# print(f"{len(l1)} + {len(l2)} = {len(l3)}")
+
+# Exercise 1.10
+# def detect_ranges(int_list):
+#     int_list.sort()
+#
+#     new_list = []
+#     i = 0
+#     range_start = int_list[0]
+#     range_end = int_list[0]
+#     range_length = 1
+#     for m in int_list:
+#         if (m + 1 in int_list) and (range_length == 1):
+#             range_start = m
+#             range_length += 1
+#         elif (m + 1 in int_list) and (range_length > 1):
+#             range_length += 1
+#         elif (m + 1 not in int_list) and (range_length > 1):
+#             range_end = m + 1
+#             new_list.append(tuple([range_start, range_end]))
+#             range_length = 1
+#         elif (m + 1 not in int_list) and (range_length == 1):
+#             new_list.append(m)
+#
+#
+#     return new_list
+#
+# print(detect_ranges([2,5,4,8,12,6,7,10,13]))
