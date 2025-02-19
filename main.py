@@ -148,3 +148,13 @@ import math
 #     return new_list
 #
 # print(detect_ranges([2,5,4,8,12,6,7,10,13]))
+
+# Exercise 1.11
+# def interleave (*args):
+#     zip_list = []
+#     for members in zip(*args):
+#         zip_list.extend(members)
+#     return zip_list
+#
+# print(interleave([1,2,3], [20,30,40], ['a', 'b', 'c']))
+
