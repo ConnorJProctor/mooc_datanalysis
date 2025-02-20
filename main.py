@@ -166,3 +166,21 @@ import math
 #
 #     return result_dict
 # print(distinct_characters(["check", "look", "try", "pop"]))
+
+# Exercise 1.13
+# def reverse_dictionary(old_dictionary):
+#     new_dictionary = {}
+#     for key, values in old_dictionary.items():
+#         word_list = []
+#         for value in values:
+#             if value not in new_dictionary.keys():
+#                 new_dictionary.update({value: [key]})
+#             else:
+#                 new_dictionary[value].append(key)
+#
+#     return new_dictionary
+#
+#
+#
+# d={'move': ['liikuttaa'], 'hide': ['piilottaa', 'salata'], 'six': ['kuusi'], 'fir': ['kuusi']}
+# print(reverse_dictionary(d))
