@@ -158,3 +158,11 @@ import math
 #
 # print(interleave([1,2,3], [20,30,40], ['a', 'b', 'c']))
 
+# Exercise 1.12
+# def distinct_characters(string_list):
+#     result_dict = {}
+#     for string in string_list:
+#         result_dict.update({string: len(string)})
+#
+#     return result_dict
+# print(distinct_characters(["check", "look", "try", "pop"]))
