@@ -184,3 +184,16 @@ import math
 #
 # d={'move': ['liikuttaa'], 'hide': ['piilottaa', 'salata'], 'six': ['kuusi'], 'fir': ['kuusi']}
 # print(reverse_dictionary(d))
+
+# Exercise 1.14
+# def find_matching(string_list,search_string):
+#     results_list = []
+#
+#     for i, string in enumerate(string_list):
+#         if search_string in string:
+#             results_list.append(i)
+#
+#     return results_list
+#
+#
+# print(find_matching(["sensitive", "engine", "rubbish", "comment"], "en"))
