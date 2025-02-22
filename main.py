@@ -197,3 +197,10 @@ import math
 #
 #
 # print(find_matching(["sensitive", "engine", "rubbish", "comment"], "en"))
+
+# Exercise 1.15
+# dice_combos = [(x,y)    for x in range (1,7)
+#                         for y in range (1,7)
+#                         if x + y == 5]
+#
+# print(*dice_combos, sep='\n')
