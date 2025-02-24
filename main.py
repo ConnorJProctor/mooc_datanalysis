@@ -215,3 +215,9 @@ import math
 #
 # print(transform("1 5 3", "2 6 -1"))
 
+# Exercise 1.17
+# def positive_list(num_list):
+#     new_list = list(filter(lambda x : x > 0, num_list))
+#     return new_list
+#
+# print(positive_list([2, -2, 0, 1, -7]))
