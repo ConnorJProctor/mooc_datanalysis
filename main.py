@@ -204,3 +204,14 @@ import math
 #                         if x + y == 5]
 #
 # print(*dice_combos, sep='\n')
+
+# Exercise 1.16
+# def transform(string1, string2):
+#     list1 = list(map(int, list(string1.split())))
+#     list2 = list(map(int, list(string2.split())))
+#     zipped_list = list(zip(list1,list2))
+#     final_list = list(map(lambda x : x[0] * x[1], zipped_list ))
+#     return final_list
+#
+# print(transform("1 5 3", "2 6 -1"))
+
